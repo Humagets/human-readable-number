@@ -1,4 +1,4 @@
-function toReadable(number) {
+module.exports = function toReadable(number) {
   const ones = [
     "zero", "one", "two", "three", "four",
     "five", "six", "seven", "eight", "nine"
